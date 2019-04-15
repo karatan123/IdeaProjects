@@ -12,7 +12,7 @@ public class HumanPlayer {
     public static final int MessageTypeLose = 3;
     //属性：名称、分数、所出的拳、（角色对应的音效）、角色个性化台词
     private String name;
-    private int score;
+    private int score;   //成员变量有默认的初始值，数字默认0，字符串默认为null
     private  int fist;
     //.........
     /**
